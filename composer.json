@@ -1,0 +1,21 @@
+{
+    "name": "implement/crud",
+    "description": "the crud package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy Tsai",
+            "email": "aoo043826@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "8.*.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Implement\\Crud\\": "src"
+        }
+    }
+}
